@@ -546,15 +546,6 @@
             <vulnerabilities/>
             <violated_policy_rules/>
          </component>
-         <component component_id="8b4f55d4-ea0b-4115-a79f-41e564717d1e" file_name="jstl-1.2.jar" sha1="74aca283cd4f4b4f3e425f5820cda58f44409547" vulnerabilities="1" max_cvss_score="7.5" version="1.2" library="jstl" vendor="javax.servlet" description="" added_date="2020-04-23 14&#x3a;53&#x3a;23 UTC" new="false" component_affects_policy_compliance="false">
-            <file_paths>
-               <file_path value="binaries&#x2f;files_1589901947340_zip&#x2f;target&#x2f;verademo.war&#x23;zip&#x3a;WEB-INF&#x2f;lib&#x2f;jstl-1.2.jar"/>
-            </file_paths>
-            <vulnerabilities>
-               <vulnerability cve_id="CVE-2015-0254" cvss_score="7.5" severity="4" cwe_id="" first_found_date="2020-04-23 14&#x3a;53&#x3a;23 UTC" cve_summary="Apache Standard Taglibs before 1.2.3 allows remote attackers to execute arbitrary code or conduct external XML entity &#x28;XXE&#x29; attacks via a crafted XSLT extension in a &#x28;1&#x29; &#x3c;x&#x3a;parse&#x3e; or &#x28;2&#x29; &#x3c;x&#x3a;transform&#x3e; JSTL XML tag." severity_desc="High" mitigation="false" vulnerability_affects_policy_compliance="false"/>
-            </vulnerabilities>
-            <violated_policy_rules/>
-         </component>
          <component component_id="8d9a63d8-808b-4233-9e54-279d0f51826f" file_name="log4j-1.2.17.jar" sha1="5af35056b4d257e4b64b9e8069c0746e8b08629f" vulnerabilities="1" max_cvss_score="7.5" version="1.2.17" library="log4j" vendor="log4j" description="Apache Log4j 1.2" added_date="2020-04-23 14&#x3a;53&#x3a;22 UTC" new="false" component_affects_policy_compliance="false">
             <file_paths>
                <file_path value="binaries&#x2f;files_1589901947340_zip&#x2f;target&#x2f;verademo.war&#x23;zip&#x3a;WEB-INF&#x2f;lib&#x2f;log4j-1.2.17.jar"/>
