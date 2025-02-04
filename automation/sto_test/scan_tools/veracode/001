@@ -546,18 +546,6 @@
             <vulnerabilities/>
             <violated_policy_rules/>
          </component>
-         <component component_id="8d9a63d8-808b-4233-9e54-279d0f51826f" file_name="log4j-1.2.17.jar" sha1="5af35056b4d257e4b64b9e8069c0746e8b08629f" vulnerabilities="1" max_cvss_score="7.5" version="1.2.17" library="log4j" vendor="log4j" description="Apache Log4j 1.2" added_date="2020-04-23 14&#x3a;53&#x3a;22 UTC" new="false" component_affects_policy_compliance="false">
-            <file_paths>
-               <file_path value="binaries&#x2f;files_1589901947340_zip&#x2f;target&#x2f;verademo.war&#x23;zip&#x3a;WEB-INF&#x2f;lib&#x2f;log4j-1.2.17.jar"/>
-            </file_paths>
-            <licenses>
-               <license name="Apache License 2.0" spdx_id="Apache-2.0" license_url="https&#x3a;&#x2f;&#x2f;spdx.org&#x2f;licenses&#x2f;Apache-2.0.html" risk_rating="2"/>
-            </licenses>
-            <vulnerabilities>
-               <vulnerability cve_id="CVE-2019-17571" cvss_score="7.5" severity="20" cwe_id="" first_found_date="2020-04-23 14&#x3a;53&#x3a;22 UTC" cve_summary="log4j-core is vulnerable to arbitrary code execution. Deserialization of untrusted data in &#x60;TcpSocketServer&#x60; and &#x60;UdpSocketServer&#x60; when listening for log data allows an attacker to execute arbitrary code via a malicious deserialization gadget." severity_desc="High" mitigation="false" vulnerability_affects_policy_compliance="false"/>
-            </vulnerabilities>
-            <violated_policy_rules/>
-         </component>
          <component component_id="9fdb0cb9-3f05-4fb3-b221-cd97bdacc307" file_name="commons-collections4-4.0.jar" sha1="da217367fd25e88df52ba79e47658d4cf928b0d1" vulnerabilities="1" max_cvss_score="5.1" version="4.0" library="commons-collections4" vendor="org.apache.commons" description="The Apache Commons Collections package contains types that extend and augment the Java Collections Framework." added_date="2020-04-23 14&#x3a;53&#x3a;22 UTC" new="false" component_affects_policy_compliance="false">
             <file_paths>
                <file_path value="binaries&#x2f;files_1589901947340_zip&#x2f;target&#x2f;verademo.war&#x23;zip&#x3a;WEB-INF&#x2f;lib&#x2f;commons-collections4-4.0.jar"/>
